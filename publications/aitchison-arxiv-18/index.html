@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GSM=SSN: recurrent neural circuits optimised for probabilistic inference</title>
+        <title>Sampling-based probabilistic inference emerges from learning in neural circuits with a cost on reliability</title>
         <style>
 
     html body {
@@ -120,10 +120,10 @@
 <main>
     <div><a href=".." style="font-size: 200%;"><i class="fa fa-arrow-up"></i></a></div>
 
-    <h4><a href="">GSM=SSN: recurrent neural circuits optimised for probabilistic inference</a></h4>
-    R Echeveste, G Hennequin<sup>*</sup>, and M Lengyel<sup>*</sup><br>
-    <span style="color: #55cc00;">COSYNE</span>, 2017 &nbsp;
-    
+    <h4><a href="">Sampling-based probabilistic inference emerges from learning in neural circuits with a cost on reliability</a></h4>
+    L Aitchison, G Hennequin, and M Lengyel<br>
+    <span style="color: #55cc00;">arXiv</span>, 2018 &nbsp;
+     <a style="color:#aa0000; font-size:120%;" href="https://arxiv.org/pdf/1807.08952"><i class="fa fa-external-link"></i></a> 
     
     
  
@@ -132,34 +132,31 @@
     <br>
     <h4>Abstract</h4>
     <br>
-    <div class="text-justify"><p>The operation of cortical circuits has traditionally been studied using either
-bottom-up or top-down approaches.  The former identified dynamical mechanisms
-responsible for a wealth of empirical data, but without reference to
-computational function, while the laer extracted signatures of specific
-computations from neural activity, but remained agnostic as to the underlying
-mechanisms. Here we bridge these two approaches and study the dynamics and
-function of cortical circuits in a principled unifying framework. In contrast
-to recent optimisation-based approaches, which use highly simplified
-architectures and only address trial-average responses, here we train
-stochastic, recurrent neural circuits with realistic components that allow us
-to link response dynamics and variability more directly to computational
-function. We train networks to perform sampling-based probabilistic inference
-under a widely-used generative model of natural images, the Gaussian Scale
-Mixture (GSM) model. We first show that the GSM posterior mean grows with
-stimulus contrast z, superlinearly for small z and saturating for large z,
-while the posterior variance decreases with z. We then employ a novel, assumed
-density filtering-based approach to obtain the moments of activity in
-stochastic networks as smooth, dierentiable functions of network parameters,
-and match them to those of the GSM posterior for a set of training stimuli. We
-show that the network appropriately generalizes to novel stimuli, reproducing
-the scaling of means and variances with contrast. Furthermore, the networks
-thus obtained operate in the dynamical regime of stabilised supralinear
-networks (SSN) that has recently been proposed to underlie response
-normalization in V1. Thus, our results suggest a generic function for
-inhibition stabilised dynamics with a loose excitatory-inhibitory balance: they
-provide ideal substrates of recognition models for probabilistic inference.
-Conversely, our approach could also be used to infer the brain’s internal
-models based on observed dynamics.</p>
+    <div class="text-justify"><p>Neural responses in the cortex change over time both systematically, due to
+ongoing plasticity and learning, and seemingly randomly, due to various sources
+of noise and variability. Most previous work considered each of these
+processes, learning and variability, in isolation &ndash; here we study neural
+networks exhibiting both and show that their interaction leads to the emergence
+of powerful computational properties. We trained neural networks on classical
+unsupervised learning tasks, in which the objective was to represent their
+inputs in an efficient, easily decodable form, with an additional cost for
+neural reliability which we derived from basic biophysical considerations. This
+cost on reliability introduced a tradeoff between energetically cheap but
+inaccurate representations and energetically costly but accurate ones. Despite
+the learning tasks being non-probabilistic, the networks solved this tradeoff
+by developing a probabilistic representation: neural variability represented
+samples from statistically appropriate posterior distributions that would
+result from performing probabilistic inference over their inputs. We provide an
+analytical understanding of this result by revealing a connection between the
+cost of reliability, and the objective for a state-of-the-art Bayesian
+inference strategy: variational autoencoders. We show that the same cost leads
+to the emergence of increasingly accurate probabilistic representations as
+networks become more complex, from single-layer feed-forward, through
+multi-layer feed-forward, to recurrent architectures. Our results provide
+insights into why neural responses in sensory areas show signatures of
+sampling-based probabilistic representations, and may inform future deep
+learning algorithms and their implementation in stochastic low-precision
+computing systems.</p>
 </div>
     
 
