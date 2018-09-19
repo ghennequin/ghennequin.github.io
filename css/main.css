@@ -133,4 +133,21 @@ img {
   color: #888;
   text-decoration: none;
 }
+
+
+.news {
+}
+
+.news .item {
+  margin-bottom: 0em;
+}
  
+.news .item .title {
+  font-size: 14pt;
+}
+
+.news .item .blurb {
+  color: #888;
+}
+  
+
