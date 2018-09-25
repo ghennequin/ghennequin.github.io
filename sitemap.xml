@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ghennequin.github.io/news/stroud-2018/</loc>
+    <lastmod>2018-09-25T06:32:56+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ghennequin.github.io/news/natural-gradient-paper/</loc>
     <lastmod>2018-09-19T11:00:39+01:00</lastmod>
   </url>
@@ -273,13 +278,13 @@
   
   <url>
     <loc>https://ghennequin.github.io/</loc>
-    <lastmod>2018-09-19T11:00:39+01:00</lastmod>
+    <lastmod>2018-09-25T06:32:56+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghennequin.github.io/news/</loc>
-    <lastmod>2018-09-19T11:00:39+01:00</lastmod>
+    <lastmod>2018-09-25T06:32:56+01:00</lastmod>
     <priority>0</priority>
   </url>
   
