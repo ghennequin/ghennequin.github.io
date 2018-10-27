@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Neural dynamics and control group</title>
+        <title>Exact natural gradient in deep linear networks and application to the nonlinear case</title>
         <style>
 
     html body {
@@ -118,83 +118,44 @@
 
 
 <main>
+    <div><a href=".." style="font-size: 200%;"><i class="fa fa-arrow-up"></i></a></div>
 
-    <div class="intro">
-      <div>
-         <img style="width: 100%;" src="front.jpg"> 
-      </div>
-
-      <h1 style="font-size: 300%;">Neural dynamics and control group</h1>
-
-      <div style="font-size: 130%;">
-      Our group is part of the <a href="http://cbl.eng.cam.ac.uk">Computational and Biological Learning lab</a> in <a href="http://www.eng.cam.ac.uk">Cambridge</a>. <br> We build network-level theories of motor control and learning.
-      </div>
-
-      <hr>
-<div class="news">
-<h2>News</h2>
-     
+    <h4><a href="">Exact natural gradient in deep linear networks and application to the nonlinear case</a></h4>
+    A Bernacchia, M Lengyel, and G Hennequin<br>
+    <span style="color: #55cc00;">NIPS</span>, 2018 &nbsp;
     
-
-<div class="item">
-October 2018
-<div class="title">
-  <a href="/news/kao-spotlight/">Commentary in TICS on recent brain-computer interface results by the Baptista/Yu/Chase groups at CMU</a>
-</div>
-<div class="blurb">
-See full text <a href="/publications/kao-tics-18/">here</a>
-</div>
-</div>
-
- 
-     
+     <a style="color:#aa0000; font-size:120%;" href="../bernacchia-nips-2018.pdf"><i class="fa fa-file-pdf-o"></i></a> 
     
-
-<div class="item">
-September 2018
-<div class="title">
-  <a href="/news/stroud-2018/">New paper accepted at Nature Neuroscience, with Jake Stroud, Mason Porter and Tim P. Vogels</a>
-</div>
-<div class="blurb">
-Motor primitives in space and time via targeted gain modulation in cortical networks
-</div>
-</div>
-
- 
-     
-    
-
-<div class="item">
-September 2018
-<div class="title">
-  <a href="/news/natural-gradient-paper/">New paper on natural gradient in deep networks</a>
-</div>
-<div class="blurb">
-See <a href="/publications/bernacchia-nips-2018/">publications</a>
-</div>
-</div>
-
- 
-     
-    
-
-<div class="item">
-September 2018
-<div class="title">
-  <a href="/news/bernstein-workshop/">Bernstein workshop, Berlin, 25-26 September</a>
-</div>
-<div class="blurb">
-Come and join us for an inspiring workshop on &ldquo;Emergent function in non-random neural networks&rdquo;, ahead of the main Bernstein Conference
-</div>
-</div>
-
  
     
+    <br>
+    <br>
+    <h4>Abstract</h4>
+    <br>
+    <div class="text-justify"><p>Stochastic gradient descent (SGD) remains the method of choice for deep
+learning, despite the limitations arising for ill-behaved objective functions.
+In cases where it could be estimated, the <em>natural</em> gradient has proven very
+effective at mitigating the catastrophic effects of pathological curvature in
+the objective function, but little is known theoretically about its convergence
+properties, and it has yet to find a practical implementation that would scale
+to very deep and large networks.  Here, we derive an exact expression for the
+natural gradient in deep linear networks, which exhibit pathological curvature
+similar to the nonlinear case. We provide for the first time an analytical
+solution for its convergence rate, showing that the loss decreases
+exponentially to the global minimum in parameter space.  Our expression for the
+natural gradient is surprisingly simple, computationally tractable, and
+explains why some approximations proposed previously work well in practice.
+This opens new avenues for approximating the natural gradient in the nonlinear
+case, and we show in preliminary experiments that our online natural gradient
+descent outperforms SGD on MNIST autoencoding while sharing its computational
+simplicity.</p>
+
+<div style="display:block; margin-left:auto; margin-right:auto; max-width: 30em">
+<img width="100%" src="/publications/bernacchia-nips-2018.png"/>
 </div>
-
-
-
-    </div>
+ 
+</div>
+    
 
 </main>
 
