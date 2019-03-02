@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ghennequin.github.io/news/cosyne19/</loc>
+    <lastmod>2019-03-02T11:03:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ghennequin.github.io/publications/bernacchia-nips-2018/</loc>
     <lastmod>2018-10-27T15:35:59+01:00</lastmod>
   </url>
@@ -303,13 +308,13 @@
   
   <url>
     <loc>https://ghennequin.github.io/</loc>
-    <lastmod>2018-10-27T15:35:59+01:00</lastmod>
+    <lastmod>2019-03-02T11:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghennequin.github.io/news/</loc>
-    <lastmod>2018-10-16T09:42:12+01:00</lastmod>
+    <lastmod>2019-03-02T11:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
