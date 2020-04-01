@@ -1,1 +1,1 @@
-We have moved [here](hennequin-lab.github.io).
+We have moved [here](http://hennequin-lab.github.io).
